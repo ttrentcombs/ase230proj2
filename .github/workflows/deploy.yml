@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -22,4 +22,5 @@ jobs:
           hugo-version: "0.134.2"
           extended: true
 
-      - name: Build
+      - name: Build site
+        run: hugo --minify
