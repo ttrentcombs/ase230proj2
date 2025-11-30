@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Projects on Trent Combs – ASE230 Portfolio</title><link>https://ttrentcombs.github.io/ase230proj2/projects/</link><description>Recent content in Projects on Trent Combs – ASE230 Portfolio</description><generator>Hugo -- 0.148.2</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ttrentcombs.github.io/ase230proj2/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Concert REST API – Project 1</title><link>https://ttrentcombs.github.io/ase230proj2/projects/project-1-concert-api/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://ttrentcombs.github.io/ase230proj2/projects/project-1-concert-api/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>This project implements a &lt;strong>Concert REST API&lt;/strong> that supports:&lt;/p>
+&lt;ul>
+&lt;li>Users and authentication&lt;/li>
+&lt;li>Venues&lt;/li>
+&lt;li>Concerts&lt;/li>
+&lt;li>Ticket bookings&lt;/li>
+&lt;/ul>
+&lt;p>Clients can:&lt;/p>
+&lt;ul>
+&lt;li>Register and log in&lt;/li>
+&lt;li>View/create venues&lt;/li>
+&lt;li>View/create concerts&lt;/li>
+&lt;li>Book tickets for a concert&lt;/li>
+&lt;/ul>
+&lt;p>This documentation was originally written as a &lt;strong>Marp slide deck&lt;/strong> and has been &lt;strong>re-implemented here as a Hugo page&lt;/strong> for my portfolio site.&lt;/p>
+&lt;hr>
+&lt;h2 id="tech-stack">Tech Stack&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>PHP&lt;/strong> REST API&lt;/li>
+&lt;li>&lt;strong>MySQL&lt;/strong> database (managed through phpMyAdmin)&lt;/li>
+&lt;li>&lt;strong>XAMPP&lt;/strong> for local development&lt;/li>
+&lt;li>&lt;strong>NGINX&lt;/strong> for deployment&lt;/li>
+&lt;li>&lt;strong>cURL / HTML pages&lt;/strong> for testing&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="database-design">Database Design&lt;/h2>
+&lt;p>The system uses several related tables:&lt;/p></description></item></channel></rss>

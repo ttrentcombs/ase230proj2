@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Welcome on Trent Combs – ASE230 Portfolio</title><link>https://ttrentcombs.github.io/ase230proj2/</link><description>Recent content in Welcome on Trent Combs – ASE230 Portfolio</description><generator>Hugo -- 0.148.2</generator><language>en-us</language><lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ttrentcombs.github.io/ase230proj2/index.xml" rel="self" type="application/rss+xml"/><item><title>Project 2 – Laravel REST API &amp; DevOps</title><link>https://ttrentcombs.github.io/ase230proj2/docs/project2/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://ttrentcombs.github.io/ase230proj2/docs/project2/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Project 2 takes the &lt;strong>Concert REST API&lt;/strong> from Project 1 and upgrades it using modern tools:&lt;/p>
+&lt;ul>
+&lt;li>Re-implemented the API using &lt;strong>Laravel&lt;/strong>&lt;/li>
+&lt;li>Automated deployment with a &lt;strong>shell script&lt;/strong> (&lt;code>run.sh&lt;/code>)&lt;/li>
+&lt;li>&lt;strong>Containerized&lt;/strong> the app with Docker and Docker Compose&lt;/li>
+&lt;li>Re-implemented the documentation using &lt;strong>Hugo + PaperMod&lt;/strong> as a portfolio site&lt;/li>
+&lt;li>Set up &lt;strong>GitHub Actions&lt;/strong> to automatically deploy the Hugo site to &lt;strong>GitHub Pages (GitHub.io)&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>This project is designed to be a professional portfolio piece that shows both backend and DevOps skills.&lt;/p></description></item><item><title>Concert REST API – Project 1</title><link>https://ttrentcombs.github.io/ase230proj2/projects/project-1-concert-api/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://ttrentcombs.github.io/ase230proj2/projects/project-1-concert-api/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>This project implements a &lt;strong>Concert REST API&lt;/strong> that supports:&lt;/p>
+&lt;ul>
+&lt;li>Users and authentication&lt;/li>
+&lt;li>Venues&lt;/li>
+&lt;li>Concerts&lt;/li>
+&lt;li>Ticket bookings&lt;/li>
+&lt;/ul>
+&lt;p>Clients can:&lt;/p>
+&lt;ul>
+&lt;li>Register and log in&lt;/li>
+&lt;li>View/create venues&lt;/li>
+&lt;li>View/create concerts&lt;/li>
+&lt;li>Book tickets for a concert&lt;/li>
+&lt;/ul>
+&lt;p>This documentation was originally written as a &lt;strong>Marp slide deck&lt;/strong> and has been &lt;strong>re-implemented here as a Hugo page&lt;/strong> for my portfolio site.&lt;/p>
+&lt;hr>
+&lt;h2 id="tech-stack">Tech Stack&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>PHP&lt;/strong> REST API&lt;/li>
+&lt;li>&lt;strong>MySQL&lt;/strong> database (managed through phpMyAdmin)&lt;/li>
+&lt;li>&lt;strong>XAMPP&lt;/strong> for local development&lt;/li>
+&lt;li>&lt;strong>NGINX&lt;/strong> for deployment&lt;/li>
+&lt;li>&lt;strong>cURL / HTML pages&lt;/strong> for testing&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="database-design">Database Design&lt;/h2>
+&lt;p>The system uses several related tables:&lt;/p></description></item><item><title>Project 1 – Concert REST API</title><link>https://ttrentcombs.github.io/ase230proj2/docs/project1/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://ttrentcombs.github.io/ase230proj2/docs/project1/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>Project 1 is a &lt;strong>Concert REST API&lt;/strong> that provides:&lt;/p>
+&lt;ul>
+&lt;li>User registration and login&lt;/li>
+&lt;li>Venue management&lt;/li>
+&lt;li>Concert management&lt;/li>
+&lt;li>Ticket booking&lt;/li>
+&lt;/ul>
+&lt;p>The API is built with &lt;strong>PHP&lt;/strong> and &lt;strong>MySQL&lt;/strong> and was originally documented with Marp slides, which I later converted into this Hugo page for my portfolio.&lt;/p>
+&lt;h2 id="responsibilities">Responsibilities&lt;/h2>
+&lt;ul>
+&lt;li>Designed the &lt;strong>database schema&lt;/strong> (users, venues, concerts, bookings)&lt;/li>
+&lt;li>Implemented PHP endpoints for all CRUD operations&lt;/li>
+&lt;li>Added simple &lt;strong>token-based authentication&lt;/strong> using Bearer tokens&lt;/li>
+&lt;li>Tested endpoints using cURL and browser tools&lt;/li>
+&lt;li>Deployed the API behind an &lt;strong>NGINX&lt;/strong> server&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-i-learned">What I Learned&lt;/h2>
+&lt;ul>
+&lt;li>How to design a REST-style backend&lt;/li>
+&lt;li>How to connect PHP to MySQL and use foreign keys&lt;/li>
+&lt;li>Basics of server configuration and deployment with NGINX&lt;/li>
+&lt;li>How to write technical documentation and later migrate it into a static site generator (Hugo)&lt;/li>
+&lt;/ul></description></item></channel></rss>
