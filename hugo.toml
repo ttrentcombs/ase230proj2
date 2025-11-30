@@ -1,0 +1,33 @@
+baseURL = "https://ttrentcombs.github.io/ase230proj2/"
+languageCode = "en-us"
+title = "Trent Combs – ASE230 Portfolio"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  defaultTheme = "auto"
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowReadingTime = true
+  ShowToc = true
+  author = "Trent Combs"
+  description = "ASE230 REST API & DevOps portfolio (Projects 1 & 2)."
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Projects"
+    url  = "/projects/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Docs"
+    url  = "/docs/"
+    weight = 3

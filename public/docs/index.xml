@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Documentation on Trent Combs – ASE230 Portfolio</title>
+    <link>http://localhost:1313/ase230proj2/docs/</link>
+    <description>Recent content in Documentation on Trent Combs – ASE230 Portfolio</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/ase230proj2/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project 2 – Laravel REST API &amp; DevOps</title>
+      <link>http://localhost:1313/ase230proj2/docs/project2/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ase230proj2/docs/project2/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Project 2 takes the &lt;strong&gt;Concert REST API&lt;/strong&gt; from Project 1 and upgrades it using modern tools:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Re-implemented the API using &lt;strong&gt;Laravel&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Automated deployment with a &lt;strong&gt;shell script&lt;/strong&gt; (&lt;code&gt;run.sh&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Containerized&lt;/strong&gt; the app with Docker and Docker Compose&lt;/li&gt;
+&lt;li&gt;Re-implemented the documentation using &lt;strong&gt;Hugo + PaperMod&lt;/strong&gt; as a portfolio site&lt;/li&gt;
+&lt;li&gt;Set up &lt;strong&gt;GitHub Actions&lt;/strong&gt; to automatically deploy the Hugo site to &lt;strong&gt;GitHub Pages (GitHub.io)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This project is designed to be a professional portfolio piece that shows both backend and DevOps skills.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project 1 – Concert REST API</title>
+      <link>http://localhost:1313/ase230proj2/docs/project1/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ase230proj2/docs/project1/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Project 1 is a &lt;strong&gt;Concert REST API&lt;/strong&gt; that provides:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;User registration and login&lt;/li&gt;
+&lt;li&gt;Venue management&lt;/li&gt;
+&lt;li&gt;Concert management&lt;/li&gt;
+&lt;li&gt;Ticket booking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The API is built with &lt;strong&gt;PHP&lt;/strong&gt; and &lt;strong&gt;MySQL&lt;/strong&gt; and was originally documented with Marp slides, which I later converted into this Hugo page for my portfolio.&lt;/p&gt;
+&lt;h2 id=&#34;responsibilities&#34;&gt;Responsibilities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed the &lt;strong&gt;database schema&lt;/strong&gt; (users, venues, concerts, bookings)&lt;/li&gt;
+&lt;li&gt;Implemented PHP endpoints for all CRUD operations&lt;/li&gt;
+&lt;li&gt;Added simple &lt;strong&gt;token-based authentication&lt;/strong&gt; using Bearer tokens&lt;/li&gt;
+&lt;li&gt;Tested endpoints using cURL and browser tools&lt;/li&gt;
+&lt;li&gt;Deployed the API behind an &lt;strong&gt;NGINX&lt;/strong&gt; server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;what-i-learned&#34;&gt;What I Learned&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;How to design a REST-style backend&lt;/li&gt;
+&lt;li&gt;How to connect PHP to MySQL and use foreign keys&lt;/li&gt;
+&lt;li&gt;Basics of server configuration and deployment with NGINX&lt;/li&gt;
+&lt;li&gt;How to write technical documentation and later migrate it into a static site generator (Hugo)&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
